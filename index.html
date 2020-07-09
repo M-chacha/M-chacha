@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 4.2.1">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+  
+  <link rel="stylesheet" href="/lib/animate-css/animate.min.css">
+
+<script class="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"yoursite.com","root":"/","scheme":"Muse","version":"8.0.0-rc.4","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":false,"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}}};
+  </script>
+
+  <meta property="og:type" content="website">
+<meta property="og:title" content="MCC_blog">
+<meta property="og:url" content="http://yoursite.com/index.html">
+<meta property="og:site_name" content="MCC_blog">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:author" content="MCC">
+<meta name="twitter:card" content="summary">
+
+<link rel="canonical" href="http://yoursite.com/">
+
+
+<script class="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : true,
+    isPost : false,
+    lang   : 'zh-CN'
+  };
+</script>
+
+  <title>MCC_blog</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  body { margin-top: 2rem; }
+
+  .use-motion .menu-item,
+  .use-motion .sidebar,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header {
+    visibility: visible;
+  }
+
+  .use-motion .header,
+  .use-motion .site-brand-container .toggle,
+  .use-motion .footer { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle,
+  .use-motion .custom-logo-image {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line {
+    transform: scaleX(1);
+  }
+
+  .search-pop-overlay, .sidebar-nav { display: none; }
+  .sidebar-panel { display: block; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <main class="main">
+      <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+        <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <h1 class="site-title">MCC_blog</h1>
+      <i class="logo-line"></i>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+</div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-overview-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <section class="post-toc-wrap sidebar-panel">
+      </section>
+      <!--/noindex-->
+
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">MCC</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives">
+          <span class="site-state-item-count">2</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-tags">
+        <span class="site-state-item-count">2</span>
+        <span class="site-state-item-name">标签</span>
+      </div>
+  </nav>
+</div>
+
+
+
+      </section>
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </header>
+
+      
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+<noscript>
+  <div id="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+      <div class="main-inner">
+        
+
+        <div class="content index posts-expand">
+          
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/10/01/%E4%BD%BF%E7%94%A8centos7%E6%90%AD%E5%BB%BAwordpress%E7%8E%AF%E5%A2%83/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="MCC">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="MCC_blog">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2019/10/01/%E4%BD%BF%E7%94%A8centos7%E6%90%AD%E5%BB%BAwordpress%E7%8E%AF%E5%A2%83/" class="post-title-link" itemprop="url">使用Centos7搭建WordPress环境</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2019-10-02 11:09:41" itemprop="dateCreated datePublished" datetime="2019-10-02T11:09:41+08:00">2019-10-02</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2020-07-09 14:27:28" itemprop="dateModified" datetime="2020-07-09T14:27:28+08:00">2020-07-09</time>
+              </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p>[dangerbox title=”写在前面！”]本文主要讲解Centos7下搭建WordPress过程。相比Windows，个人还是更喜欢Linux，没有花花绿绿的图形界面，简洁的命令行界面看着舒服。但本人只是Linux渣渣，dalao勿喷。 本文将以centos7为例，讲解Centos7+Apache+Mariadb+PHP7.2搭建WordPress过程。 [/dangerbox] 本文采用centos7.6 1810版本，镜像可在<a href="https://opsx.alibaba.com/mirror" target="_blank" rel="noopener">阿里镜像站</a>下载，选择minimal即可，镜像包更小，节省下载及安装时间。 [title]1、安装Apache Web服务器[/title] Apache服务器是目前最流行的Web服务器。运行以下命令安装：</p>
+<pre><code>sudo yum install httpd</code></pre><p>安装完成之后就可以用以下命令开启Apache Web服务器：</p>
+<pre><code>sudo systemctl start httpd</code></pre><p>如果要让Apache开机自启，可输入以下命令：</p>
+<pre><code>sudo systemctl enable httpd</code></pre><p>之后我们便可以在浏览器输入服务器的IP地址进行访问，你会看到这样的界面： <img src="http://mengchacha.xyz/wp-content/uploads/2019/10/Apache.png" alt="Apache"> 如果打不开页面，可能是服务器的防火墙拦截了http协议，我们可以让防火墙开启80端口：</p>
+<pre><code>sudo iptables -I INPUT -p TCP --dport 80 -j ACCEPT</code></pre><p>也可以直接关闭防火墙，并且禁止开机启动：</p>
+<pre><code>sudo systemctl stop firewalld
+sudo systemctl disable firewalld</code></pre><p>Apache服务器文件默认在/etc/www/目录下。 [title]2、安装Mysql(MariaDB)数据库[/title] 目前Mysql被MariaDB所代替。MariaDB的目的是完全兼容MySQL，包括API和命令行，使之能轻松成为MySQL的代替品。 输入以下命令安装Mariadb：</p>
+<pre><code>sudo yum install mariadb-server mariadb</code></pre><p>完成之后启动数据库，并且使其开机自启：</p>
+<pre><code>sudo systemctl start mariadb
+sudo systemctl enable mariadb</code></pre><p>然后安装一个数据库安全脚本，去掉一些危险的默认设置：</p>
+<pre><code>sudo mysql_secure_installation</code></pre><p>然后会提示你输入数据库的root账号密码，如果是新安装的则输入空格，如下所示：</p>
+<pre><code>In order to log into MariaDB to secure it, we&apos;ll need the current
+password for the root user.  If you&apos;ve just installed MariaDB, and
+you haven&apos;t set the root password yet, the password will be blank,
+so you should just press enter here.
+
+Enter current password for root (enter for none): </code></pre><p>然后我们输入空格：</p>
+<pre><code>OK, successfully used password, moving on...
+
+Setting the root password ensures that nobody can log into the MariaDB
+root user without the proper authorisation.
+
+Set root password? [Y/n] </code></pre><p>输入Y确定之后设定密码，之后的选项默认即可：</p>
+<pre><code>Password updated successfully!
+Reloading privilege tables..
+ ... Success!
+
+
+By default, a MariaDB installation has an anonymous user, allowing anyone
+to log into MariaDB without having to have a user account created for
+them.  This is intended only for testing, and to make the installation
+go a bit smoother.  You should remove them before moving into a
+production environment.
+
+Remove anonymous users? [Y/n] 
+ ... Success!
+
+Normally, root should only be allowed to connect from &apos;localhost&apos;.  This
+ensures that someone cannot guess at the root password from the network.
+
+Disallow root login remotely? [Y/n] 
+ ... Success!
+
+By default, MariaDB comes with a database named &apos;test&apos; that anyone can
+access.  This is also intended only for testing, and should be removed
+before moving into a production environment.
+
+Remove test database and access to it? [Y/n] 
+ - Dropping test database...
+ ... Success!
+ - Removing privileges on test database...
+ ... Success!
+
+Reloading the privilege tables will ensure that all changes made so far
+will take effect immediately.
+
+Reload privilege tables now? [Y/n] 
+ ... Success!
+
+Cleaning up...
+
+All done!  If you&apos;ve completed all of the above steps, your MariaDB
+installation should now be secure.
+
+Thanks for using MariaDB!</code></pre><p>同样，设置Mariadb开机启动：</p>
+<pre><code>sudo systemctl enable mariadb</code></pre><p>[title]3、安装PHP[/title] 我们运行以下命令尝试安装php：</p>
+<pre><code>sudo yum install php</code></pre><p>我们会看到以下界面，默认的PHP包为5.4.16版本：</p>
+<pre><code>依赖关系解决
+
+================================================================================
+ Package             架构            版本                   源             大小
+================================================================================
+正在安装:
+ php                 x86_64          5.4.16-46.el7          base          1.4 M
+为依赖而安装:
+ libzip              x86_64          0.10.1-8.el7           base           48 k
+ php-cli             x86_64          5.4.16-46.el7          base          2.7 M
+ php-common          x86_64          5.4.16-46.el7          base          565 k
+
+事务概要
+================================================================================</code></pre><p>而WordPress最新版本所需要的PHP环境最低为5.4.20，并且在WordPress官网中，官方建议使用最新的PHP版本，所以这里我们输入N取消安装。 这里我选择安装PHP的最新版本。首先更新rpm：</p>
+<pre><code>rpm -Uvh https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm   
+rpm -Uvh https://mirror.webtatic.com/yum/el7/webtatic-release.rpm</code></pre><p>可以使用sudo yum list php*查看有什么PHP版本。可以看到目前4到7.2都有，7.2版本名为72w，我们可以这样安装：</p>
+<pre><code>sudo yum install php72w</code></pre><p>但安装完毕后，输入php -v发现并没有该命令，因为php72w只是安装了php最小的库，一些应用还未安装，因此安装一些拓展包即可：</p>
+<pre><code>yum -y install php72w-cli php72w-common php72w-devel php72w-mysql</code></pre><p>对于WordPress，还需安装以下扩展：</p>
+<pre><code>sudo yum -y install php72w-gd php72w-imap php72w-ldap php72w-odbc php72w-pear php72w-xml php72w-xmlrpc</code></pre><p>然后输入php -v出现以下信息，</p>
+<pre><code>PHP 7.2.22 (cli) (built: Sep 11 2019 18:11:52) ( NTS )
+Copyright (c) 1997-2018 The PHP Group
+Zend Engine v3.2.0, Copyright (c) 1998-2018 Zend Technologies</code></pre><p>这个时候Apache可能还不知道我们安装了php7版本（Centos默认rpm为php5），这个时候我们为了让Apache支持php7，需要更新Apache的配置文件。 首先我们找到php.ini文件，利用find命令：</p>
+<pre><code>find / -name php.ini</code></pre><p>一般来讲会在/etc目录下，即/etc/php.ini 然后找到Apache的配置文件httpd.conf：</p>
+<pre><code>find / -name httpd.conf</code></pre><p>一般来讲会在/etc/httpd/conf/httpd.conf，然后修改该文件：</p>
+<pre><code>vi /etc/httpd/conf/httpd.conf</code></pre><p>在最后一行加上：</p>
+<pre><code>PHPIniDir /etc/php.ini</code></pre><p>告诉Apache，PHP的配置文件位置。 然后重启一下httpd：</p>
+<pre><code>sudo systemctl restart httpd</code></pre><p>这个时候，我们可以在/var/www/html/下建立一个info.php文件:</p>
+<pre><code>vi /var/www/html/info.php</code></pre><p>按i建进入编辑模式，输入以下代码：</p>
+<pre><code>&lt;?php phpinfo();?&gt;</code></pre><p>保存并退出。现在在浏览器打开<a href="http://your\_server\_IP/info.php,可以看到PHP的信息页面。" target="_blank" rel="noopener">http://your\_server\_IP/info.php,可以看到PHP的信息页面。</a> <img src="http://mengchacha.xyz/wp-content/uploads/2019/10/phpinfo.png" alt="phpinfo"> [title]4、安装WordPress[/title] 4.1 创建数据库 我们需要先创建WordPress数据库：</p>
+<pre><code>#登录数据库
+mysql -u root -p
+#创建数据库
+CREATE DATABASE wordpress;
+#创建数据库用户和密码
+CREATE USER wordpressuser@localhost IDENTIFIED BY &apos;wordpress_password&apos;; # wordpressuser即数据库用户名，wordpress_password即密码
+#设置wordpressuser访问wordpress数据库权限
+GRANT ALL PRIVILEGES ON wordpress.*TO wordpressuser@localhost IDENTIFIED BY &apos;wordpress_password&apos;;
+#刷新数据库设置
+FLUSH PRIVILEGES;
+#退出数据库
+exit</code></pre><p>4.2安装WordPress 我们先下载WordPress安装包：</p>
+<pre><code>cd ~
+wget http://wordpress.org/latest.tar.gz</code></pre><p>这个链接下载的是WordPress的最新版本安装包，但是是英文版的。如果要用中文版的，可以到<a href="https://cn.wordpress.org/download/" target="_blank" rel="noopener">WordPress中文官网</a>下载中文安装包.tar.gz格式，然后使用Scp或者FTP等工具发送到服务器上。 也可使用以下命令下载：</p>
+<pre><code>wget http://cn.wordpress.org/latest-zh_CN.tar.gz</code></pre><p>然后解压出来，拷贝到/var/www/html/wordpress目录：</p>
+<pre><code># 解压wordpress
+tar xzvf latest-zh_CN.tar.gz
+# 拷贝到/var/www/html/wordpress目录
+sudo rsync -avP ~/wordpress/ /var/www/html/wordpress/</code></pre><p>然后编辑wp-config.php文件：</p>
+<pre><code># 切换到wordpress目录
+cd /var/www/html/wordpress
+# 复制wp-config.php文件
+cp wp-config-sample.php wp-config.php
+# 编辑wp-config.php文件
+sudo vi wp-config.php</code></pre><p>在配置里设置正确的值：</p>
+<pre><code>// ** MySQL settings - You can get this info from your web host ** //
+/** The name of the database for WordPress */
+define(&apos;DB_NAME&apos;, &apos;database_name_here&apos;); # 数据库名称
+/** MySQL database username */
+define(&apos;DB_USER&apos;, &apos;username_here&apos;); # 数据库用户名
+/** MySQL database password */
+define(&apos;DB_PASSWORD&apos;, &apos;password_here&apos;); # 数据库密码
+/** MySQL hostname */
+define(&apos;DB_HOST&apos;, &apos;localhost&apos;);</code></pre><p>设置完成后保存退出，在浏览器中输入<a href="http://your\_server\_ip/wordpress/wp-admin/install.php开始配置WordPress。" target="_blank" rel="noopener">http://your\_server\_ip/wordpress/wp-admin/install.php开始配置WordPress。</a> <img src="http://mengchacha.xyz/wp-content/uploads/2019/10/install.png" alt="install"> [title]外链[/title] 1、<a href="https://opsx.alibaba.com/mirror" target="_blank" rel="noopener">阿里镜像站</a> 2、<a href="https://cn.wordpress.org/download/" target="_blank" rel="noopener">WordPress中文官网</a></p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/09/29/5433-html/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="MCC">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="MCC_blog">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2019/09/29/5433-html/" class="post-title-link" itemprop="url">使用KMS服务激活Microsoft产品</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2019-09-30 04:27:31" itemprop="dateCreated datePublished" datetime="2019-09-30T04:27:31+08:00">2019-09-30</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2020-07-09 14:27:28" itemprop="dateModified" datetime="2020-07-09T14:27:28+08:00">2020-07-09</time>
+              </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p>[dangerbox title=”写在前面！”] 1、使用此方法激活的产品并不是正版，需要正版请前往微软商城购买！ 2、KMS 只能激活批量授权 (Volume License) 产品，无法激活零售 (Retail) 产品。 3、KMS 激活有效期为 180 天 (常规版本) ，但是一般会连接 KMS 服务器进行自动续期。 4、有能力的可以自行搭建本地KMS或者路由器KMS。 5、本站由茶茶搭建并维护，可能未经通知即停止使用。 6、本文只谈 KMS 激活，如何搭建如何使用不在讨论之列。 [/dangerbox] [title]基本操作[/title] 1、安装KMS密钥；2、指定KMS服务器地址；3、激活产品。 以下开启正文： [title]一、Windows系统[/title] 下面列出了所有可以通过KMS激活的版本及其KMS密钥，请查看并选择对应的版本。 [collapse title=”单击查看KMS秘钥”] [table id=1 /] [/collapse] 请以管理员身份运行命令提示符（powershell），分别执行以下命令（注意有空格）：</p>
+<pre><code>slmgr.vbs /ipk XXXXX-XXXXX-XXXXX-XXXXX-XXXXX #KMS密钥
+slmgr.vbs /skms mengchacha.xyz #KMS服务器地址，即本站地址
+slmgr.vbs /ato</code></pre><p>查看到期时间：</p>
+<pre><code>slmgr.vbs /xpr</code></pre><p><img src="https://vlog-1253183981.cos.ap-guangzhou.myqcloud.com/cos/KMS/slmgr-xpr.png" alt="xpr"> [title]二、Office/Visio/Project[/title] 首先需要明确的一点是，Visio及Project并不在Office套装之中，需要单独激活，并且比Office贵得多。 同样，以管理员身份运行命令提示符（powershell），分别执行以下命令（注意有空格）：</p>
+<pre><code>cd C:\Program Files\Microsoft Office\Office16 #打开Office安装位置
+cscript ospp.vbs /sethst:mengchacha.xyz #KMS服务器地址，即本站地址
+cscript ospp.vbs /act</code></pre>
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+
+  
+
+
+
+        </div>
+        
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2020</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">MCC</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/muse/" class="theme-link" rel="noopener" target="_blank">NexT.Muse</a> 强力驱动
+  </div>
+
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/muse.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+</body>
+</html>
